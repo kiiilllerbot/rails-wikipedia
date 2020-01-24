@@ -1,7 +1,12 @@
 @import "bootstrap";
+@import "contents";
 
 html,body{
 	margin-top: 40px;
+}
+
+body{
+  padding-bottom: 70px;
 }
 
 .navbar-brand{

@@ -12,6 +12,9 @@
         <ul class="navbar-nav ml-auto">
           <% if user_signed_in? %>
             <li class="nav-item">
+              <%= link_to "All Articles", contents_path, :class=>"nav-link"%>
+            </li>
+            <li class="nav-item">
               <%= link_to "New Article", new_content_path, :class=>"nav-link"%>
             </li>
             <li class="nav-item">
