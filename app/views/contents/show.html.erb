@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-md-12" style="margin-top: 5vh">
+    <h4><strong><%= @content.title %></strong></h4>
+    <hr class="my-1">
+    <p>From Wikipedia, the free encyclopedia</p>
+    <p class="text-justify"><%= @content.description.html_safe %></p>
+
+    <%= link_to "Back", contents_path %>
+    |
+    <%= link_to "Edit",edit_content_path  %>
+    |
+    <%= link_to "Delete",content_path,method: :delete,data:{confirm:'Are you sure?'} %>
+    | 
+    <%= link_to "New Article",new_content_path %>
+
+    </div>
+  </div>
+</div>
