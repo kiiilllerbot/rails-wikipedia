@@ -31,3 +31,5 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
+gem 'bootstrap', '~> 4.4', '>= 4.4.1'
